@@ -10,7 +10,6 @@ import React, { useState } from 'react';
 import Posts from './components/Posts/Posts';
 import SearchBar from './components/SearchBar/SearchBar';
 // Import the dummyData
-// import './dummy-data';
 import './App.css';
 import dummyData from './dummy-data';
 // import Post from './components/Posts/Post';
@@ -38,10 +37,10 @@ const App = () => {
      */
     setPosts(
       posts.map( post => {
-        if (postId === post.id){
-          return { ...post, likes: post + 1 }
+        if (post.id === postId){
+          return { ...post, likes: post++ }
         } else {
-          return { post }
+          return post
         }
       })
     );
