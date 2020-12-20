@@ -54,6 +54,31 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "rachelzmind",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://images.pexels.com/photos/6289/lights-night-alcohol-party.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        likes: 15750,
+        timestamp: "December 17th 2020, 05:35:24 pm",
+        comments: [
+            {
+                id: 45,
+                username: "trapzking",
+                text: "Best virtual Holiday party ever!",
+            },
+            {
+                id: 46,
+                username: "giancarrlo",
+                text: "wish I could've made it!",
+            },
+            {
+                id: 47,
+                username: "brineyjoey",
+                text: "Such great memories!",
+            },
+        ],
+    }
 ];
 
 export default dummyData;
